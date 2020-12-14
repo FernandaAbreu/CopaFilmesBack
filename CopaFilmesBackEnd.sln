@@ -3,6 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopaFilmesBackEnd", "CopaFilmesBackEnd\CopaFilmesBackEnd.csproj", "{F203694B-9BBE-45BF-BAED-E6EADCD5B4B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopaFilmesBackEnd.Services", "CopaFilmesBackEnd.Services\CopaFilmesBackEnd.Services.csproj", "{B49B3340-1A32-4357-B33F-94F5E5BC30DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopaFilmesBackEnd.CrossCutting", "CopaFilmesBackEnd.CrossCutting\CopaFilmesBackEnd.CrossCutting.csproj", "{151E3FD7-F5CB-43B3-A666-9229E816E971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopaFilmesBackEnd.Helpers", "CopaFilmesBackEnd.Helpers\CopaFilmesBackEnd.Helpers.csproj", "{07FA7D20-D58E-44E7-8A00-94A56673B73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopaFilmesBackEnd.ViewModel", "CopaFilmesBackEnd.ViewModel\CopaFilmesBackEnd.ViewModel.csproj", "{DF7A6A5F-5652-4662-B93A-9DCD2BF66DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopaFilmesBackEnd.IntegrationTest", "CopaFilmesBackEnd.IntegrationTest\CopaFilmesBackEnd.IntegrationTest.csproj", "{8157C05A-FD53-48C2-81AA-59011B947286}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C1485099-49EF-4A01-891C-6BC0F6963D56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +25,29 @@ Global
 		{F203694B-9BBE-45BF-BAED-E6EADCD5B4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F203694B-9BBE-45BF-BAED-E6EADCD5B4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F203694B-9BBE-45BF-BAED-E6EADCD5B4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49B3340-1A32-4357-B33F-94F5E5BC30DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49B3340-1A32-4357-B33F-94F5E5BC30DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49B3340-1A32-4357-B33F-94F5E5BC30DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49B3340-1A32-4357-B33F-94F5E5BC30DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{151E3FD7-F5CB-43B3-A666-9229E816E971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151E3FD7-F5CB-43B3-A666-9229E816E971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151E3FD7-F5CB-43B3-A666-9229E816E971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151E3FD7-F5CB-43B3-A666-9229E816E971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07FA7D20-D58E-44E7-8A00-94A56673B73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07FA7D20-D58E-44E7-8A00-94A56673B73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07FA7D20-D58E-44E7-8A00-94A56673B73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07FA7D20-D58E-44E7-8A00-94A56673B73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7A6A5F-5652-4662-B93A-9DCD2BF66DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7A6A5F-5652-4662-B93A-9DCD2BF66DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7A6A5F-5652-4662-B93A-9DCD2BF66DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7A6A5F-5652-4662-B93A-9DCD2BF66DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8157C05A-FD53-48C2-81AA-59011B947286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8157C05A-FD53-48C2-81AA-59011B947286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8157C05A-FD53-48C2-81AA-59011B947286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8157C05A-FD53-48C2-81AA-59011B947286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1485099-49EF-4A01-891C-6BC0F6963D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1485099-49EF-4A01-891C-6BC0F6963D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1485099-49EF-4A01-891C-6BC0F6963D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1485099-49EF-4A01-891C-6BC0F6963D56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
